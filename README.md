@@ -17,4 +17,12 @@
 
 发布分支为 `main`，目录为 `/ (root)`；`index.html` 是网站首页，`.nojekyll` 让页面按静态文件发布。原先上传的中文文件保留。
 
-此仓库仅发布学习网页与分享二维码，不含本地笔记、JSON 备份、测试目录、局域网服务脚本或考核原 PDF。
+此仓库发布学习网页、学生管理演示及其 Python 示例源码，不含本地笔记、学生真实数据、JSON 备份或考核原 PDF。
+
+## 学生信息管理系统
+
+- 在线网站：https://007x-sudo.github.io/sjzkh/student-management/
+- 支持增删改查、学号精确查询、四种成绩的双向排序。
+- 页面适配手机；数据保存在当前浏览器，不上传、不跨设备同步。
+- GitHub Pages 不执行 Python；Python 源码在 student-management/backend，下载包为 student-management/python-backend.zip。
+- 本机运行与联调说明可从学生管理页面的“使用说明”获取。
